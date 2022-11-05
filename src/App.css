@@ -1,0 +1,121 @@
+/*                             .navBG                             */
+.navBG{
+  background: #000000c5;
+  font-size: 20px;
+  position: sticky;
+}
+
+#aside-sticky{
+  position: sticky;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*                             BODY                             */
+body{
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 700%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/*                             STYLE SCROLL                             */
+
+
+
+/*                             STYLE FOR P AND H4                             */
+h4{
+  color: white;
+  text-align: center;
+}
+p{
+  color: white;
+  font-size: 20px;
+}
+
+
+/*                             STYLE FOR TITLES ASIDE                             */
+#title-aside{
+  color: white !important;
+  text-decoration: none !important;
+  font-size: 20px;
+}
+
+
+/*                             STYLE FOR TITLES ASIDE HOVER                             */
+#title-aside:hover{
+  color: rgb(0, 238, 255) !important;
+  text-decoration: none !important;
+  font-size: 22px;
+}
+
+
+/*                             ESTILOS PARA LOS a DEL NAVBAR                             */
+a{
+  color: white !important;
+  text-decoration: none !important;
+  font-size: 20px;
+}
+a:hover{
+  color: rgb(0, 238, 255) !important;
+  text-decoration: none !important;
+  font-size: 22px;
+}
+
+/*                             STYLE FOR TITLE AURA                            */
+#title-aura{
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+
+#aside-sticky{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* DARK AND LIGHT MODE*/
+#light{
+  background-color: rgb(141, 141, 141);
+}
+
+#dark{
+  background-color: black;
+}
+/* DARK AND LIGHT NAVBAR */
+#light .navBG{
+  background: rgb(141, 141, 141);
+}
+#dark .navBG{
+  background: black;
+}
+/* DARK AND LIGHT FOOTER */
+#light .site-footer{
+  background: rgb(141, 141, 141);
+}
+#dark .site-footer{
+  background: black;
+}
+
+/* switch*/
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.labelColor{
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+#light .switch{
+  background-color: rgb(141, 141, 141);
+}
+#dark .switch{
+  background-color: black;
+}
