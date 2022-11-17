@@ -9,16 +9,16 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-sm-12 col-md-6">
-                <h6>The Aura programing lenguage</h6>
+                <h6>Lenguaje de programacion AURA</h6>
                 <p className="text-justify">
-                  This is a programming lenguage inspired in javascript, python
-                  and golang, the goal is to create a programming lenguage in
-                  spanish that helps people that are begining in software
-                  development or computer science, probiding a high level
-                  programming lenguage in spanish that is very simple to use.
-                  Also is an expressions based lenguage so is more easy to work
-                  with it It is an interpreted language fully built using Go
-                  standar libreary.
+                  Este es un lenguaje de programación inspirado en javascript,
+                  python y golang, el objetivo es crear un lenguaje de
+                  programación en español que ayude a las personas que se
+                  inician en el desarrollo de software o en la informática,
+                  probando un lenguaje de programación de alto nivel en español
+                  que sea muy sencillo de utilizar. Además es un lenguaje basado
+                  en expresiones por lo que es más fácil trabajar con él Es un
+                  lenguaje interpretado que utiliza la librería estándar Go.
                 </p>
               </div>
 
@@ -26,20 +26,16 @@ const Footer = () => {
                 <h6>Enlaces Rapidos</h6>
                 <ul className="footer-links">
                   <li>
-                    <a href='../Inicio'>Inicio</a>
+                    <a href="../Inicio">Inicio</a>
                   </li>
                   <li>
-                    <a href='../Documento'>Documento</a>
+                    <a href="../Documento">Documento</a>
                   </li>
                   <li>
-                    <a href='../Consola'>
-                      Consola
-                    </a>
+                    <a href="../Consola">Consola</a>
                   </li>
                   <li>
-                    <a href='../SobreNosotros'>
-                      Sobre Nosotros
-                    </a>
+                    <a href="../SobreNosotros">Sobre Nosotros</a>
                   </li>
                 </ul>
               </div>
@@ -50,7 +46,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-8 col-sm-6 col-xs-12">
                 <p className="copyright-text">
-                  Copyright &copy; 2022 All Rights Reserved by
+                  Copyright &copy; 2022 Todos los derechos reservados por
                   <a href="https://github.com/DarioRoman01/AURA"> A U R A</a>.
                 </p>
               </div>
@@ -203,4 +199,4 @@ const FooterStyle = styled.div`
       font-weight: 600;
     }
   }
-`
+`;
