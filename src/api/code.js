@@ -1,5 +1,5 @@
 export const evaludateCode = async (code) => {
-  const response = await fetch('http://165.22.4.139:8080/', {
+  const response = await fetch('https://api.projectpage.me/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
